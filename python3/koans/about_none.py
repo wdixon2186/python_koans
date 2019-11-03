@@ -11,7 +11,7 @@ class AboutNone(Koan):
 
     def test_none_is_an_object(self):
         "Unlike NULL in a lot of languages"
-        self.assertEqual(__, isinstance(None, object))
+        self.assertEqual({None}, isinstance(None, object))
 
     def test_none_is_universal(self):
         "There is only one None"
